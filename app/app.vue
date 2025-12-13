@@ -76,7 +76,7 @@ const links = ref<ButtonProps[]>([
         <NuxtPage>
           <UPageHero
             title="Create quizzes fast"
-            description="TriviaJam lets you create quizzes faster than any other app possible."
+            description="Generate quizzes faster than any other application. TriviaJam is a streamlined, free-to-use platform for instantly creating and deploying customizable trivia games."
             headline="New update!"
             :links="links"
           />
