@@ -11,39 +11,27 @@ const headerItems = computed<NavigationMenuItem[]>(() => [
     active: route.path.startsWith("/docs/getting-started"),
   },
   {
-    label: "Components",
-    to: "/docs/components",
+    label: "Templates",
+    to: "/templates",
     icon: "i-lucide-box",
-    active: route.path.startsWith("/docs/components"),
+    active: route.path.startsWith("/templates"),
   },
   {
-    label: "Figma",
-    icon: "i-simple-icons-figma",
-    to: "https://go.nuxt.com/figma-ui",
-    target: "_blank",
-  },
-  {
-    label: "Releases",
+    label: "Join a Game",
+    to: "/join",
     icon: "i-lucide-rocket",
-    to: "https://github.com/nuxt/ui/releases",
-    target: "_blank",
+    active: route.path.startsWith("/join"),
   },
 ]);
 
 const footerItems: NavigationMenuItem[] = [
   {
-    label: "Figma Kit",
+    label: "Join a Game",
     to: "https://go.nuxt.com/figma-ui",
     target: "_blank",
-  },
-  {
-    label: "Playground",
-    to: "https://stackblitz.com/edit/nuxt-ui",
-    target: "_blank",
-  },
-  {
-    label: "Releases",
-    to: "https://github.com/nuxt/ui/releases",
+  }, {
+    label: "Privacy Policy",
+    to: "https://go.nuxt.com/figma-ui",
     target: "_blank",
   },
 ];
